@@ -11,9 +11,12 @@ nav{
     margin-left: 100px;
     margin-right: 100px;
 }
-nav ul {
+nav ul{
     display: flex;
+    align-items: center;
     gap: 20px;
+    padding: 8;
+    margin: 8;
 }
 main{
     display: flex;
@@ -21,6 +24,7 @@ main{
     gap: 30px;
     padding: 50px;
     margin: 50px;
+    max-width: 1200px;
 }
 main section {
     flex: 1;
@@ -28,12 +32,41 @@ main section {
     border: 2px solid black;
     padding: 20px;
 }
+
 form{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-#service{
-    padding:  50px 0 50px 0;
-  
+@media (max-width: 600px){
+    nav{
+    flex-direction: column;
+    gap: 10px;
+
+}
+nav ul {
+    flex-direction: column;
+    text-align: center;
+
+}
+main{
+    padding: 15px;
+    margin: 10px;
+    gap: 10px;
+
+}
+main section {
+    flex: 1 1 100%;
+    min-width: 0;
+    padding: 15px;
+}
+
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 100px;
+        color: red;
+       
+    }
+
 }
