@@ -19,9 +19,13 @@ return `${greetings} sa enyu ${name}`;
 }
 console.log (greet("mayung aga", ["REY",  "Bai", "Soy", "Tol", "Erp",]));
 }
- const  Heading= document.querySelector(" h1");
- Heading.textContent = "your father's name";
- console.log (Heading);
+
+ const  heading= document.querySelector("h1");
+ heading.textContent = "RONILO";
+ heading.style.color = "purple";
+ heading.style.backgroundColor = "yellow";
+ heading.style.fontSize = "100px";
+ console.log (heading);
 
  const contactHeading = document. querySelector ("#contact h2");
  console.log(contactHeading);
