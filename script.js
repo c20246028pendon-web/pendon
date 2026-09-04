@@ -19,11 +19,12 @@ return `${greetings} sa enyu ${name}`;
 }
 console.log (greet("mayung aga", ["REY",  "Bai", "Soy", "Tol", "Erp",]));
 }
- const heading = document.querySelector("h1");
- console.log (heading);
+ const  Heading= document.querySelector(" h1");
+ Heading.textContent = "your father's name";
+ console.log (Heading);
 
  const contactHeading = document. querySelector ("#contact h2");
  console.log(contactHeading);
 
- const servicesHeading = document.querySelector ("#services h2");
- console.log(servicesHeading);   
+ const projectHeading = document.querySelector ("#services h2");
+ console.log(projectHeading);   
